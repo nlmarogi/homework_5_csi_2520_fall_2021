@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/555be0560e.js" crossorigin="anonymous"></script>
+    <title>Nicholas Marogi's Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="../images/icons8-edit-24.png"/>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <script src="/js/Untitled-1.js" defer></script> 
+</head>
+<body onload="myFunction()">
+    <h1>Nicholas Marogi - Trivia Page</h1>
+    <header id="page header">
+        <nav>
+            <menu>
+              <a href="/page1/trivia.ejs"><span>Trivia</span></a>
+              <a href="/page2/resume.ejs"><span>Resume</span></a>
+              <a href="/page3/funFact.ejs"><span>Fun Facts</span></a>
+            </menu>
+        </nav>
+    </header>
+<h1>TRIVIA</h1>
+
+    <section id ="question 1">
+        <div style='transform: scale(0.65); position: relative; top: -100px;'>
+            <h2>What year was the Godfather Part 1 released?</h2>
+            <p>Choose 1 answer</p>
+            <hr />
+          
+            <div id='block-11' style='padding: 10px;'>
+              <label for='option-11' style=' padding: 5px; font-size: 2.5rem;'>
+                <input type='radio' name='option' value='1972' id='option-11' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                1972</label>
+              <span id='result-11'></span>
+            </div>
+            <hr />
+          
+            <div id='block-12' style='padding: 10px;'>
+              <label for='option-12' style=' padding: 5px; font-size: 2.5rem;'>
+                <input type='radio' name='option' value='1980' id='option-12' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                1980</label>
+              <span id='result-12'></span>
+            </div>
+            <hr />
+          
+            <div id='block-13' style='padding: 10px;'>
+              <label for='option-13' style=' padding: 5px; font-size: 2.5rem;'>
+                <input type='radio' name='option' value='1950' id='option-13' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                1950</label>
+              <span id='result-13'></span>
+            </div>
+            <hr />
+          
+            <div id='block-14' style='padding: 10px;'>
+              <label for='option-14' style=' padding: 5px; font-size: 2.5rem;'>
+                <input type='radio' name='option' value='2014' id='option-14' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+                2014</label>
+              <span id='result-14'></span>
+            </div>
+            <hr />
+            <button type='button' onclick='displayAnswer1()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Submit</button>
+          </div>
+          <a id='showanswer1'></a>
+    </section>
+    
+    <section id="question 2">
+      <div style='transform: scale(0.65); position: relative; top: -100px;'>
+        <h2>What year was Skyfall released?</h2>
+        <p>Choose 1 answer</p>
+        <hr />
+      
+        <div id='block-21' style='padding: 10px;'>
+          <label for='option-21' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1972' id='option-21' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1972</label>
+          <span id='result-21'></span>
+        </div>
+        <hr />
+      
+        <div id='block-22' style='padding: 10px;'>
+          <label for='option-22' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1980' id='option-22' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1980</label>
+          <span id='result-22'></span>
+        </div>
+        <hr />
+      
+        <div id='block-23' style='padding: 10px;'>
+          <label for='option-23' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1950' id='option-23' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1950</label>
+          <span id='result-23'></span>
+        </div>
+        <hr />
+      
+        <div id='block-24' style='padding: 10px;'>
+          <label for='option-24' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='2014' id='option-24' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            2014</label>
+          <span id='result-24'></span>
+        </div>
+        <hr />
+        <button type='button' onclick='displayAnswer2()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Submit</button>
+      </div>
+      <a id='showanswer2'></a>
+    </section>
+
+    <section id="question 3">
+     <div style='transform: scale(0.65); position: relative; top: -100px;'>
+        <h2>What year was Rashomon released?</h2>
+        <p>Choose 1 answer</p>
+        <hr />
+      
+        <div id='block-31' style='padding: 10px;'>
+          <label for='option-31' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1972' id='option-31' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1972</label>
+          <span id='result-31'></span>
+        </div>
+        <hr />
+      
+        <div id='block-32' style='padding: 10px;'>
+          <label for='option-32' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1980' id='option-32' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1980</label>
+          <span id='result-32'></span>
+        </div>
+        <hr />
+      
+        <div id='block-33' style='padding: 10px;'>
+          <label for='option-33' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1950' id='option-33' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1950</label>
+          <span id='result-33'></span>
+        </div>
+        <hr />
+      
+        <div id='block-34' style='padding: 10px;'>
+          <label for='option-34' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='2014' id='option-34' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            2014</label>
+          <span id='result-34'></span>
+        </div>
+        <hr />
+        <button type='button' onclick='displayAnswer3()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Submit</button>
+      </div>
+      <a id='showanswer3'></a>
+    </section>
+
+
+
+    <section id="question 4">
+      <div style='transform: scale(0.65); position: relative; top: -100px;'>
+        <h2>What year was Friday the 13th released?</h2>
+        <p>Choose 1 answer</p>
+        <hr />
+      
+        <div id='block-41' style='padding: 10px;'>
+          <label for='option-41' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1972' id='option-41' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1972</label>
+          <span id='result-41'></span>
+        </div>
+        <hr />
+      
+        <div id='block-42' style='padding: 10px;'>
+          <label for='option-42' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1980' id='option-42' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1980</label>
+          <span id='result-42'></span>
+        </div>
+        <hr />
+      
+        <div id='block-43' style='padding: 10px;'>
+          <label for='option-43' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1950' id='option-43' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1950</label>
+          <span id='result-43'></span>
+        </div>
+        <hr />
+      
+        <div id='block-44' style='padding: 10px;'>
+          <label for='option-44' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='2014' id='option-44' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            2014</label>
+          <span id='result-44'></span>
+        </div>
+        <hr />
+        <button type='button' onclick='displayAnswer4()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Submit</button>
+      </div>
+      <a id='showanswer4'></a>
+    </section>
+
+
+
+    <section id="question 5">
+      <div style='transform: scale(0.65); position: relative; top: -100px;'>
+        <h2>What year was Jurassic Park released?</h2>
+        <p>Choose 1 answer</p>
+        <hr />
+      
+        <div id='block-51' style='padding: 10px;'>
+          <label for='option-51' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1991' id='option-51' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1991</label>
+          <span id='result-51'></span>
+        </div>
+        <hr />
+      
+        <div id='block-52' style='padding: 10px;'>
+          <label for='option-52' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1992' id='option-52' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1992</label>
+          <span id='result-52'></span>
+        </div>
+        <hr />
+      
+        <div id='block-53' style='padding: 10px;'>
+          <label for='option-53' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1993' id='option-53' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1993</label>
+          <span id='result-53'></span>
+        </div>
+        <hr />
+      
+        <div id='block-54' style='padding: 10px;'>
+          <label for='option-54' style=' padding: 5px; font-size: 2.5rem;'>
+            <input type='radio' name='option' value='1994' id='option-54' style='transform: scale(5); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            1994</label>
+          <span id='result-54'></span>
+        </div>
+        <hr />
+        <button type='button' onclick='displayAnswer5()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Submit</button>
+      </div>
+      <a id='showanswer5'></a>
+    </section>
+
+    <section id="score_section">
+      <p>Enter Amount of questions answered correctly</p>
+      <form method="get" action="/handler">
+        <input id="small_score" type="text" name="total_score" /><br />
+        <input onclick="clearText();" id="small_btn" type="submit" />
+      </form>
+
+  </section>
+
+
+
+
+
+
+
+<footer>
+    <hr>
+       <p>Contact Info </br>
+        nlmarogi@oakland.edu</p>
+ </footer>
+    
+
+</body>
+</html>

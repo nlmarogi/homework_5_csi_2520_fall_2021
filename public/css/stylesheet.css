@@ -1,0 +1,198 @@
+body {
+    background-image: url("image.jpg");
+    background-color: #cccccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 165, 0);
+    font-size: larger;
+    font-weight: 100;
+}
+
+a:link{
+    color: rgb(255, 165, 0);
+}
+
+a:visited{
+    font-style: italic;
+    color: rgba(255, 0, 0);
+}
+
+h1{
+    text-align: center;
+ }
+
+ menu{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+ }
+
+
+ #mypicture{
+    float: left;
+        display: block;
+        width: 45%; 
+}
+#aboutMe{
+        float: right;
+        display: block;
+        width: 44%; 
+        margin-right: 85px;
+        background-color: cornsilk;
+}
+
+blockquote{
+     clear: both;
+     text-align: left;
+     font-style: italic;
+     font-size: 16pt;
+     margin-left: 1px;
+}
+
+ a:hover{
+        background-color: rgba(233, 233, 233);
+ }
+
+#progress{
+
+        clear: both;
+        text-align: left;
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#contact-info{
+        text-align: center;
+
+}
+#contact-info:hover{
+    background-color: rgba(255, 0, 0);
+    font-size: 22pt;
+    text-align: center;
+}
+
+#objective{
+    text-align: center;
+
+}
+#objective:hover{
+background-color: rgba(255, 0, 0);
+font-size: 22pt;
+text-align: center;
+}
+
+#professional-experience{
+    text-align: center;
+
+}
+#professional-experience:hover{
+background-color: rgba(255, 0, 0);
+font-size: 22pt;
+text-align: center;
+}
+
+#educational-experiences{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    background-color: gray;
+    font-size: 23pt;
+}
+
+#Extracurricular-Interests-and-Hobbies{
+    text-align: center;
+
+}
+#Extracurricular-Interests-and-Hobbies:hover{
+background-color: rgba(255, 0, 0);
+font-size: 22pt;
+text-align: center;
+}
+
+#book-image{
+    float: left;
+        display: block;
+        margin: 15px 2% 0 2%;
+        width: 0%; 
+}
+#book-link{
+    float: right;
+        display: block;
+        text-align: center;
+        margin: 1px;
+        width: 47%; 
+        background-color: cornsilk;
+}
+
+#song{
+   clear: both;
+   text-align: center;
+}
+#tv-show{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+#blog-show{
+
+    text-align: center;
+}
+
+#blog-response{
+    text-align: center;
+    font-size: larger;
+}
+#blog-response:hover{
+    background-color: rgba(233, 233, 233);
+}
+
+
+input{
+    padding-left: 0px;
+    width: 1000px;
+    height: 30;
+}
+
+#comments {
+    visibility: hidden;
+}
+#reply {
+    visibility: hidden;
+}
+
+#buttons12{
+
+    text-align: center;
+}
+
+#replybutton{
+    visibility: hidden;
+}
+#candidate2{
+    text-align: center;
+}
+#dynamic-list:hover{
+    background-color: rgba(233, 233, 233);
+
+}
+
+#score_section{
+    text-align: center;
+}
+#small_btn{
+    width: 50px;
+    height: 25px;
+}
+
+#small_score{
+    width: 50px;
+    height: 25px;
+}
